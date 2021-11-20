@@ -1,0 +1,29 @@
+#app4{
+    border: 1px solid red;
+    width: 50vw;
+    height: 50vh;
+}
+#app4 .circle{
+    border: 1px solid red;
+    /* background-color: blue; */
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 100px;
+    border-radius: 50%;
+    
+}
+@keyframes change{
+    0%{
+        background-color: blue; 
+    }
+    100%{
+        background-color:red;
+    }
+}
+#app4 .circle.active{
+    animation: change 0.6s infinite alternate;
+}
+
+
+

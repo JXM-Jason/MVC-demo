@@ -1,0 +1,22 @@
+#app2{
+    border: 1px solid red;
+    width: 50vw;
+    height: 50vh;
+}
+#app2>ul{
+    display: flex;
+}
+#app2>ul li{
+    width: 50%;
+    border: 1px solid red;
+}
+#app2 .content1{
+    display: none;
+}
+#app2 .content2{
+    display: none;
+}
+#app2 .active{
+    background-color: pink;
+}
+
